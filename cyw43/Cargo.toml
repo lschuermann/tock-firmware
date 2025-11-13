@@ -1,5 +1,5 @@
 [package]
-name = "cyw43"
+name = "tock-firmware-cyw43"
 edition.workspace = true
 version.workspace = true
 

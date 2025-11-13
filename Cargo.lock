@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "cyw43"
+name = "tock-firmware-cyw43"
 version = "0.1.0"
