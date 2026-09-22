@@ -1,5 +1,5 @@
 [workspace]
-members = ["cyw43"]
+members = ["cyw43", "nrf-sdc"]
 resolver = "3"
 
 [workspace.package]
