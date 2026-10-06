@@ -1,5 +1,5 @@
 [workspace]
-members = ["cyw43"]
+members = ["cyw43", "esp32c3-bt"]
 resolver = "3"
 
 [workspace.package]

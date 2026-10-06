@@ -1,0 +1,4 @@
+[package]
+name = "tock-firmware-esp32c3-bt"
+edition.workspace = true
+version.workspace = true
