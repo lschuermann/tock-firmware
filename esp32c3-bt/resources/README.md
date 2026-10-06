@@ -18,6 +18,9 @@ Contents of this directory:
   (`ccfe82c`), which takes them from ESP-IDF. The set matches the one esp-hal
   links for the BLE controller: the base ROM, ECO3 and the BT function
   tables. The ECO7 scripts are deliberately absent, as in esp-hal.
+  One change: `ets_printf` in `esp32c3.rom.ld` is a `PROVIDE`, so that a
+  board can route the archives' log output elsewhere. Code in ROM still calls
+  the ROM's own by address.
 
 These are not linked into a Rust binary: a board links the archives and ROM
 scripts into a separate image, passing each ROM script to the linker with
